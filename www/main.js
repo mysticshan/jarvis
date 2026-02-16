@@ -40,7 +40,7 @@ autostart: true,
         $("#oval").hide();
         $("#SiriWave").show();
         eel.playAssistantSound();
-        eel.takeCommand()();
+        eel.allCommands()();
     });
 
 });
