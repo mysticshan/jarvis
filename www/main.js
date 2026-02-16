@@ -34,6 +34,13 @@ autostart: true,
             sync: true,
         }
     });
-
+    //mic button
+    $("#MICBtn").click(function () { 
+        eel.playAssistantSound();
+        $("#oval").hide();
+        $("#SiriWave").show();
+        eel.playAssistantSound();
+        eel.takeCommand()();
+    });
 
 });
